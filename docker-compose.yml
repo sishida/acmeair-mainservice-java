@@ -35,6 +35,8 @@ acmeair-mainservice-java:
   build: ../acmeair-mainservice-java/
   environment:
     - LICENSE=accept
+  volumes:
+    - ./security:/opt/ibm/wlp/output/defaultServer/resources/security
 
 acmeair-authservice-java:
   container_name: acmeair-authservice-java
@@ -42,6 +44,8 @@ acmeair-authservice-java:
   build: ../acmeair-authservice-java/
   environment:
     - LICENSE=accept
+  volumes:
+    - ./security:/opt/ibm/wlp/output/defaultServer/resources/security
 
 acmeair-bookingservice-java:
   container_name: acmeair-bookingservice-java
@@ -52,6 +56,8 @@ acmeair-bookingservice-java:
     - MONGO_HOST=acmeair-booking-db
   volumes_from:
     - acmeair-booking-db
+  volumes:
+    - ./security:/opt/ibm/wlp/output/defaultServer/resources/security
 
 acmeair-customerservice-java:
   container_name: acmeair-customerservice-java
@@ -62,6 +68,8 @@ acmeair-customerservice-java:
     - MONGO_HOST=acmeair-customer-db
   volumes_from:
     - acmeair-customer-db
+  volumes:
+    - ./security:/opt/ibm/wlp/output/defaultServer/resources/security
 
 acmeair-flightservice-java:
   container_name: acmeair-flightservice-java
@@ -72,3 +80,5 @@ acmeair-flightservice-java:
     - MONGO_HOST=acmeair-flight-db
   volumes_from:
     - acmeair-flight-db
+  volumes:
+    - ./security:/opt/ibm/wlp/output/defaultServer/resources/security

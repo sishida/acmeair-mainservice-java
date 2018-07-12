@@ -15,6 +15,7 @@
   </httpEndpoint>
   
   <quickStartSecurity userName="${env.USERNAME}" userPassword="${env.PASSWORD}"/>
+  <keyStore id="defaultKeyStore" password="secret" />
   
   <opentracingZipkin/>
   
