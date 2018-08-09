@@ -39,7 +39,7 @@
   
   <webApplication name="acmeair-mainservice"
         location="acmeair-mainservice-java-2.0.0-SNAPSHOT.war"
-        contextRoot="/">
+        contextRoot="/acmeair">
     <classloader apiTypeVisibility="api,ibm-api,spec,stable,third-party"/>
   </webApplication>
   <cdi12 enableImplicitBeanArchives="false"/>
