@@ -65,7 +65,7 @@ helm install \
   --set ingress.enabled="true" \
   --set ingress.path="/booking" \
   --set ingress.rewriteTarget="/" \
-  --set env.jvmArgs="-Dcom.acmeair.client.CustomerClient/mp-rest/url=http://acmeair-customerservice:9080 -Dcom.acmeair.client.FlightClient/mp-rest/url=http://acmeair-flightservice-ja:9080 -DMONGO_HOST=acmeair-booking-db" \
+  --set env.jvmArgs="-Dcom.acmeair.client.CustomerClient/mp-rest/url=http://acmeair-customerservice:9080 -Dcom.acmeair.client.FlightClient/mp-rest/url=http://acmeair-flightservice-ja:9080 -DMONGO_HOST=acmeair-booking-db -verbose:gc -Xverbosegclog:/logs/verbosegc.log" \
   ../../acmeair-bookingservice-java/chart/ibm-websphere-liberty
 
   
