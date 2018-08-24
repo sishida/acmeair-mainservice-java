@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage:
+#   1. Install maven on PATH
+#   2. Install JDK on PATH
+#   3. Run script
+
 #!/bin/bash
 
 cd "$(dirname "$0")"
