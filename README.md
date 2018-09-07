@@ -74,7 +74,7 @@ This doc assumes that
 
 * Prereq 1: Install Microclimate from these instructions. https://microclimate-dev2ops.github.io/installlocally
 * Prereq 2: Install IBM Cloud private. https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0.3/installing/installing.html
-	* Note: Please pick supported IBM Cloud private version and install. 
+	* Note: Please choose supported IBM Cloud private version and install. 
 * Prereq 3: Install Microclimate on IBM Cloud private. https://github.com/IBM/charts/blob/master/stable/ibm-microclimate/README.md
 
 * Import following microservices into Microclimate from these instructions. https://microclimate-dev2ops.github.io/importingaproject
