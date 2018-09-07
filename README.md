@@ -90,5 +90,5 @@ This doc assumes that
 	* Once pipeline is created successfully then you can add deployment.
 	* Deploy all microservices with these instructions. (https://microclimate-dev2ops.github.io/usingapipeline#deploying-applications)
 	* After successful deployments you can get to application from URL. (http://proxy_ip/acmeair).
-
+	* Go to the Configuration Page and Load the Database.
 
