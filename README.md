@@ -74,7 +74,7 @@ This doc assumes that
 
 * Prereq 1: [Install Microclimate](https://microclimate-dev2ops.github.io/installlocally)
 * Prereq 2: [Install IBM Cloud Private.](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0.3/installing/installing.html)
-	* **Note:** Choose and install the version of IBM Cloud Private that is currently supported with Microclimate. 
+	* **Note:** Choose and install the version of IBM Cloud Private that Microclimate supports. 
 * Prereq 3: [Install Microclimate on IBM Cloud Private.](https://github.com/IBM/charts/blob/master/stable/ibm-microclimate/README.md)
 
 * Import the following microservices into Microclimate with [Importing Projects](https://microclimate-dev2ops.github.io/importingaproject):
@@ -91,4 +91,3 @@ This doc assumes that
 	4. Deploy all the microservices with [Deploying applications](https://microclimate-dev2ops.github.io/usingapipeline#deploying-applications).
 	5. After successful deployments, you can reach the application from the http://proxy_ip/acmeair URL.
 	6. Go to the **Configuration** page and **Load the Database**.
-
